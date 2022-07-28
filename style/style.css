@@ -2,6 +2,16 @@
 filter: brightness(40%);
 
 }
+.course-clr{
+color: #289BDE;}
+.btn-clr{
+background-color: #289BDE;
+color: white;
+}
+.btn-clr:hover{
+background-color: white;
+color:black ;}
+.
 /* .carousel-inner::before{
 content: '';
 position:absolute;
