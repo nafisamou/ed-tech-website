@@ -42,10 +42,6 @@ color: black;}
     color: #FFC014;
 }
 
-.fa-star.empty {
-    color: #AEAEAE;
-}
-@media only screen and (max-width: 688px){
-.image{width: 450px;}
-}
+.fa-star-half-stroke{
+color: #FFC014;}
     
