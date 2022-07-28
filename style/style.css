@@ -1,7 +1,19 @@
-.slider-img{
-filter: brightness(40%);
-
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Heebo:wght@300&family=Merriweather+Sans:ital@1&family=Poppins:wght@400;500&family=Roboto+Slab&display=swap');
+body{
+    font-family: 'Roboto Slab', serif;
 }
+
+.image{
+filter: brightness(40%);
+/* height: 100%; */
+object-fit: cover;
+}
+.carousel-item{
+position: relative;}
+.carousel-caption{
+position: absolute;
+top: 40%;
+left: 20%;}
 .course-clr{
 color: #289BDE;}
 .btn-clr{
@@ -18,4 +30,18 @@ color: #289BDE;}
 .text-button:hover{
 
 font-size: medium;
-font-weight: 100;}
+}
+.tech{
+color:#289BDE;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+.hub{
+color: black;}
+.image{height:100vh;
+    width: 100%;
+
+
+}
+@media only screen and (max-width: 688px){
+.image{width: 450px;}
+}
+    
